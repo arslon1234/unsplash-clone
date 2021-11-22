@@ -1,0 +1,20 @@
+@mixin elarge {
+  @media (max-width: 1200px) {
+    @content;
+  }
+}
+@mixin large {
+  @media (max-width: 992px) {
+    @content;
+  }
+}
+@mixin planshet {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+@mixin mobile {
+  @media (max-width: 576px) {
+    @content;
+  }
+}

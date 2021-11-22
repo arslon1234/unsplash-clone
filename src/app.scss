@@ -1,0 +1,104 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: #fff;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: red;
+    background-image: linear-gradient(
+      45deg,
+      rgb(14, 236, 218),
+      rgb(11, 51, 230)
+    );
+  }
+}
+
+// .formSection {
+//   display: flex;
+//   justify-content: center;
+//   margin-top: 20px;
+
+//   input {
+//     width: 200px;
+//     height: 50px;
+//     font-size: 20px;
+//     line-height: 2rem;
+//     padding: 0 1rem;
+//     border-radius: 20px;
+//     margin-right: 20px;
+//   }
+//   button {
+//     width: 120px;
+//     height: 50px;
+//     font-size: 20px;
+//     padding: 0 1rem;
+//     line-height: 2rem;
+//     border-radius: 50px;
+//     background-color: #000;
+//     color: #00ffff;
+//     cursor: pointer;
+//   }
+// }
+// .title {
+//   font-family: system-ui, sans-serif;
+//   text-align: center;
+// }
+// .result {
+//   padding: 90px;
+//   display: grid;
+//   grid-template-columns: auto auto auto;
+//   .card {
+//     display: flex;
+//     a {
+//       span {
+//         .resultImage {
+//           flex: 100% 1;
+//           padding: 10px;
+//           width: 350px;
+//           border-radius: 20px;
+//           margin-top: 1rem;
+//           cursor: pointer;
+//         }
+//       }
+//       .username {
+//         text-align: center;
+//         font-family: sustem-ui, sans-serif;
+//       }
+//     }
+//   }
+// }
+// @media screen and (max-width: 501px) {
+//   .title {
+//     font-size: 27px;
+//   }
+//   .formSection {
+//     input {
+//       width: 50%;
+//       font-size: 15px;
+//     }
+//   }
+//   .formSection {
+//     button {
+//       font-size: 15px;
+//     }
+//   }
+//   .result {
+//     display: grid;
+//     grid-template-columns: auto;
+//     padding: 0;
+//   }
+//   .card {
+//     a {
+//       span {
+//         .resultImage {
+//           width: 93% !important;
+//         }
+//       }
+//     }
+//   }
+// }

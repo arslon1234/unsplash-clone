@@ -1,0 +1,684 @@
+@import "../../global.scss";
+.imgItem {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .itemHeader {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .headerTop {
+      z-index: 5;
+      img {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        @include mobile {
+          width: 30px;
+          height: 30px;
+        }
+      }
+      button {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        padding: 10px 22px;
+        border: none;
+        border-radius: 8px;
+        background-color: #111;
+        @include mobile {
+          padding: 10px 12px;
+        }
+        a {
+          font-size: 20px;
+          text-decoration: none;
+          color: #fff;
+          @include mobile {
+            font-size: 17px;
+          }
+        }
+      }
+    }
+    .headerDown {
+      margin-top: 130px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      h1 {
+        font-size: 70px;
+        font-weight: 600;
+        @include planshet {
+          font-size: 50px;
+        }
+        @include mobile {
+          font-size: 40px;
+        }
+      }
+      p {
+        font-size: 32px;
+        color: rgb(134, 134, 134);
+        @include planshet {
+          font-size: 25px;
+        }
+        @include mobile {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  .result12 {
+    margin-top: 10px;
+    padding: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    .cart {
+      display: flex;
+      margin: 10px;
+      position: relative;
+
+      a {
+        span {
+          .resultImage {
+            flex: 100% 1;
+            padding: 10px;
+            width: 600px;
+            height: 650px;
+            border-radius: 10px;
+            margin-top: 1rem;
+            cursor: pointer;
+          }
+        }
+        .username {
+          position: absolute;
+          font-size: 19px;
+          color: #fff;
+          font-weight: 500;
+          left: 30px;
+          bottom: 15px;
+          text-align: center;
+          font-family: sustem-ui, sans-serif;
+          display: none;
+          img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+          }
+        }
+      }
+      &:hover .username {
+        display: block;
+      }
+    }
+  }
+  .result13 {
+    margin-top: 10px;
+    padding: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    .cart {
+      display: flex;
+      margin: 10px;
+      position: relative;
+
+      a {
+        span {
+          .resultImage {
+            flex: 100% 1;
+            padding: 10px;
+            width: 450px;
+            height: 470px;
+            border-radius: 10px;
+            margin-top: 1rem;
+            cursor: pointer;
+          }
+        }
+        .username {
+          position: absolute;
+          font-size: 19px;
+          color: #fff;
+          font-weight: 500;
+          left: 30px;
+          bottom: 15px;
+          text-align: center;
+          font-family: sustem-ui, sans-serif;
+          display: none;
+          img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+          }
+        }
+      }
+      &:hover .username {
+        display: block;
+      }
+    }
+  }
+  .result14 {
+    margin-top: 10px;
+    padding: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    .cart {
+      display: flex;
+      margin: 10px;
+      position: relative;
+
+      a {
+        span {
+          .resultImage {
+            flex: 100% 1;
+            padding: 10px;
+            width: 450px;
+            height: 470px;
+            border-radius: 10px;
+            margin-top: 1rem;
+            cursor: pointer;
+          }
+        }
+        .username {
+          position: absolute;
+          font-size: 19px;
+          color: #fff;
+          font-weight: 500;
+          left: 30px;
+          bottom: 15px;
+          text-align: center;
+          font-family: sustem-ui, sans-serif;
+          display: none;
+          img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+          }
+        }
+      }
+      &:hover .username {
+        display: block;
+      }
+    }
+  }
+  .result15 {
+    margin-top: 10px;
+    padding: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    .cart {
+      display: flex;
+      margin: 10px;
+      position: relative;
+
+      a {
+        span {
+          .resultImage {
+            flex: 100% 1;
+            padding: 10px;
+            width: 400px;
+            height: 400px;
+            border-radius: 20px;
+            margin-top: 1rem;
+            cursor: pointer;
+          }
+        }
+        .username {
+          position: absolute;
+          font-size: 19px;
+          color: #fff;
+          font-weight: 500;
+          left: 30px;
+          bottom: 15px;
+          text-align: center;
+          font-family: sustem-ui, sans-serif;
+          display: none;
+          img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+          }
+        }
+      }
+      &:hover .username {
+        display: block;
+      }
+    }
+  }
+  .Direct {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    @include planshet {
+      margin-left: 10px;
+    }
+    .directItem {
+      display: flex;
+      flex-direction: column;
+      p {
+        margin: 10px 0px;
+        display: flex;
+        align-items: center;
+        i {
+          padding: 13px;
+          border: 2px solid #000;
+          background-color: #0078d7;
+          font-size: 22px;
+          color: #fff;
+          @include planshet {
+            padding: 8px;
+            font-size: 18px;
+          }
+          @include mobile {
+            padding: 5px;
+            font-size: 16px;
+          }
+        }
+        span {
+          font-size: 50px;
+          margin-left: 15px;
+          font-weight: 600;
+          @include planshet {
+            font-size: 40px;
+            margin-left: 10px;
+            font-weight: 500;
+          }
+          @include mobile {
+            font-size: 30px;
+            margin-left: 10px;
+            font-weight: 400;
+          }
+        }
+      }
+      span {
+        font-size: 25px;
+        margin-top: 5px;
+        @include planshet {
+          font-size: 20px;
+          margin-top: 3px;
+        }
+        @include mobile {
+          font-size: 17px;
+          margin-top: 2px;
+        }
+      }
+      ul {
+        margin: 15px 0px;
+        @include planshet {
+          margin: 10px 0px;
+        }
+        li {
+          font-size: 25px;
+          margin: 10px 0px;
+          @include planshet {
+            font-size: 22px;
+            margin: 5px 0px;
+          }
+          @include mobile {
+            font-size: 18px;
+            margin: 5px 0px;
+          }
+        }
+      }
+    }
+  }
+  .native {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 30px;
+    @include planshet {
+      margin-left: 10px;
+    }
+    .nativeItem {
+      display: flex;
+      flex-direction: column;
+      p {
+        margin: 10px 0px;
+        display: flex;
+        align-items: center;
+        i {
+          padding: 13px;
+          border: 2px solid #000;
+          background-color: #0078d7;
+          font-size: 22px;
+          color: #fff;
+          @include planshet {
+            padding: 8px;
+            font-size: 18px;
+          }
+          @include mobile {
+            padding: 5px;
+            font-size: 16px;
+          }
+        }
+        span {
+          font-size: 50px;
+          margin-left: 15px;
+          font-weight: 600;
+          @include planshet {
+            font-size: 40px;
+            margin-left: 10px;
+            font-weight: 500;
+          }
+          @include mobile {
+            font-size: 30px;
+            margin-left: 10px;
+            font-weight: 400;
+          }
+        }
+      }
+      span {
+        font-size: 25px;
+        margin-top: 5px;
+        @include planshet {
+          font-size: 22px;
+        }
+        @include mobile {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  .advertising {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 30px;
+    @include planshet {
+      margin-left: 10px;
+    }
+    .advertisingItem {
+      display: flex;
+      flex-direction: column;
+      h1 {
+        font-size: 35px;
+        font-weight: 600;
+        word-spacing: 0.5px;
+        @include planshet {
+          font-size: 30px;
+        }
+        @include mobile {
+          font-size: 23px;
+          font-weight: 500;
+          word-spacing: 0;
+        }
+      }
+      span {
+        font-size: 25px;
+        margin-top: 5px;
+        @include planshet {
+          font-size: 23px;
+        }
+        @include mobile {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  .audience {
+    width: 100%;
+    background-color: #111111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+    .audienceItem {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .ItemOne {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        @include planshet {
+          margin-left: 10px;
+        }
+        p {
+          margin: 10px 0px;
+          display: flex;
+          align-items: center;
+          i {
+            padding: 13px;
+            border: 2px solid #000;
+            background-color: #0078d7;
+            font-size: 22px;
+            color: #fff;
+            @include planshet {
+              padding-bottom: 8px;
+              font-size: 18px;
+            }
+          }
+          span {
+            color: #fff;
+            font-size: 50px;
+            margin-left: 15px;
+            font-weight: 600;
+            @include planshet {
+              font-size: 40px;
+              margin-left: 15px;
+              font-weight: 500;
+            }
+            @include mobile {
+              font-size: 30px;
+              margin-left: 15px;
+              font-weight: 400;
+            }
+          }
+        }
+        span {
+          color: #fff;
+          font-size: 25px;
+          margin-top: 5px;
+          @include planshet {
+            font-size: 22px;
+          }
+          @include mobile {
+            font-size: 17px;
+          }
+        }
+      }
+      .ItemTwo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .chapter {
+          width: 390px;
+          height: 380px;
+          border: 1px solid #fff;
+          margin: 20px;
+          border-radius: 15px;
+          display: flex;
+          flex-direction: column;
+          color: #fff;
+          justify-content: space-between;
+          @include mobile {
+            width: 310px;
+            height: 330px;
+          }
+          p {
+            display: flex;
+            flex-direction: column;
+            margin: 10px;
+            @include mobile {
+              margin: 5px;
+            }
+            span {
+              font-size: 40px;
+              margin: 0px;
+              padding: 0px;
+              margin-left: 10px;
+              @include mobile {
+                font-size: 25px;
+              }
+            }
+          }
+          .chapterTitle {
+            margin: 0px 0px 25px 15px;
+
+            span {
+              font-size: 20px;
+              margin: 5px 0px;
+              @include mobile {
+                font-size: 17px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .interest {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    @include planshet {
+      margin-left: 10px;
+    }
+    @include mobile {
+      margin-left: 30px;
+    }
+    .interestItem {
+      display: flex;
+      flex-direction: column;
+      h3 {
+        font-size: 35px;
+        color: #000;
+        font-weight: 500;
+        @include planshet {
+          font-size: 30px;
+        }
+        @include mobile {
+          font-size: 25px;
+        }
+      }
+      .contact {
+        font-size: 25px;
+        @include planshet {
+          font-size: 22px;
+        }
+        @include mobile {
+          font-size: 18px;
+        }
+        span {
+          text-decoration: underline;
+          &:hover {
+            color: #999;
+            cursor: pointer;
+          }
+        }
+      }
+      .interestTitle {
+        display: flex;
+        flex-direction: column;
+        span {
+          font-size: 25px;
+          @include planshet {
+            font-size: 22px;
+          }
+          @include mobile {
+            font-size: 17px;
+          }
+        }
+      }
+      .interestBtn {
+        display: flex;
+        margin: 40px 0px;
+        input {
+          height: 50px;
+          font-size: 18px;
+        }
+        button {
+          margin-left: 8px;
+          border-radius: 3px;
+          border: none;
+          background-color: #111;
+          color: #fff;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  .line {
+    width: 95%;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0px;
+    text-align: center;
+  }
+  .footer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .footerLeft {
+      margin-left: 25px;
+      display: flex;
+      @include planshet {
+        margin-left: 15px;
+      }
+      img {
+        width: 35px;
+        height: 35px;
+      }
+      span {
+        font-size: 20px;
+        margin-top: 10px;
+        margin-left: 10px;
+        @include planshet {
+          font-size: 17px;
+        }
+      }
+    }
+    .footerRight {
+      margin-right: 20px;
+      margin-top: 5px;
+      @include planshet {
+        margin-right: 10px;
+      }
+      @include mobile {
+        margin-left: 20px;
+      }
+      span {
+        margin-right: 10px;
+        a {
+          text-decoration: none;
+          color: #111;
+          font-size: 20px;
+          color: rgb(126, 126, 126);
+          @include planshet {
+            font-size: 18px;
+          }
+          &:hover {
+            color: #111;
+          }
+        }
+      }
+    }
+  }
+}
